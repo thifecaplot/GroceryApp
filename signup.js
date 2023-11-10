@@ -42,7 +42,7 @@ function SignupUser(e) {
         localStorage.setItem('password', upassword)
 
         alert("Register successful")
-        location.href = 'login.html'
+        location.href = 'index.html'
 
     }
     e.preventDefault()
