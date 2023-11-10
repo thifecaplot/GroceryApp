@@ -28,12 +28,12 @@ function LoginUser() {
         msg.innerHTML = "<p class='alert alert-danger'> fill all required field </p>"
     }
 
-    // if(emailE == emailLs && passE == passwordLs){
-    //     alert("Login succesful")
-    //         location.href = 'gracerykeeper.html'
-    // }else{
-    //     msg.innerHTML = "<p class='alert alert-danger'> email or password not correct </p>"
-    // }
+     if(emailE == emailLs && passE == passwordLs){
+         alert("Login succesful")
+             location.href = 'gracerykeeper.html'
+     }else{
+         msg.innerHTML = "<p class='alert alert-danger'> email or password not correct </p>"
+     }
 
     if (emailE != emailLs || passE != passwordLs) {
         msg.innerHTML = "<p class='alert alert-danger'> email or password not correct </p>"
